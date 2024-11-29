@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: DOCKER_USERNAME/REPO_NAME
+          image: matthinfo/docker-tutorial
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
